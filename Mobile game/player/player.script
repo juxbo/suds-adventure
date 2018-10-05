@@ -7,6 +7,7 @@ function init(self)
 	msg.post("#playersprite", "play_animation", {id=hash("idle")})
 	self.speed = vmath.vector3()
 	self.target = go.get_position()
+	rendercam.follow(go.get_id("go/#player"))
 end
 
 function update(self, dt)
@@ -21,7 +22,6 @@ function update(self, dt)
 			self.curAnim = "run"
 		end
 	end
-	go.set_position(pos, "/camera")
 	self.speed = vmath.vector3()
 end
 

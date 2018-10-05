@@ -1,7 +1,61 @@
 name: "player"
+instances {
+  id: "camera"
+  prototype: "/rendercam/camera.go"
+  position {
+    x: 37.0
+    y: 26.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.008802021
+    y: 0.008802021
+    z: 0.008649722
+    w: 0.9998851
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "nearZ"
+      value: "-10.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+    properties {
+      id: "farZ"
+      value: "10.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+    properties {
+      id: "useViewArea"
+      value: "true"
+      type: PROPERTY_TYPE_BOOLEAN
+    }
+    properties {
+      id: "viewArea"
+      value: "320.0, 200.0, 0.0"
+      type: PROPERTY_TYPE_VECTOR3
+    }
+    properties {
+      id: "expandView"
+      value: "true"
+      type: PROPERTY_TYPE_BOOLEAN
+    }
+    properties {
+      id: "fixedArea"
+      value: "false"
+      type: PROPERTY_TYPE_BOOLEAN
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
 scale_along_z: 0
 embedded_instances {
   id: "go"
+  children: "camera"
   data: "components {\n"
   "  id: \"player\"\n"
   "  component: \"/player/player.script\"\n"
