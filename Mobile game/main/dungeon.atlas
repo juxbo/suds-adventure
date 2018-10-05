@@ -1,0 +1,266 @@
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/column_mid.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/column_top.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/coulmn_base.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/crate.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/doors_all.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/doors_frame_left.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/doors_frame_righ.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/doors_frame_top.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/doors_leaf_closed.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/doors_leaf_open.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/edge.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/floor_1.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/floor_2.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/floor_3.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/floor_4.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/floor_5.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/floor_6.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/floor_7.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/floor_8.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/floor_ladder.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/hole.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_banner_blue.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_banner_green.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_banner_red.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_banner_yellow.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_column_mid.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_column_top.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_corner_bottom_left.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_corner_bottom_right.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_corner_front_left.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_corner_front_right.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_corner_left.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_corner_right.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_corner_top_left.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_corner_top_right.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_coulmn_base.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_fountain_top.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_goo.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_goo_base.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_hole_1.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_hole_2.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_inner_corner_l_top_left.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_inner_corner_l_top_rigth.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_inner_corner_mid_left.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_inner_corner_mid_rigth.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_inner_corner_t_top_left.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_inner_corner_t_top_rigth.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_left.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_mid.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_right.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_side_front_left.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_side_front_right.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_side_mid_left.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_side_mid_right.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_side_top_left.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_side_top_right.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_top_left.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_top_mid.png"
+}
+images {
+  image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_top_right.png"
+}
+images {
+  image: "/builtins/graphics/particle_blob.png"
+}
+animations {
+  id: "New Animation"
+  images {
+    image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/spike-ani/floor_spikes_anim_f0.png"
+  }
+  images {
+    image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/spike-ani/floor_spikes_anim_f1.png"
+  }
+  images {
+    image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/spike-ani/floor_spikes_anim_f2.png"
+  }
+  images {
+    image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/spike-ani/floor_spikes_anim_f3.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 60
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "New Animation"
+  images {
+    image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_fountain_basin_blue_anim_f0.png"
+  }
+  images {
+    image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_fountain_basin_blue_anim_f1.png"
+  }
+  images {
+    image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_fountain_basin_blue_anim_f2.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 60
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "New Animation"
+  images {
+    image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_fountain_basin_red_anim_f0.png"
+  }
+  images {
+    image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_fountain_basin_red_anim_f1.png"
+  }
+  images {
+    image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_fountain_basin_red_anim_f2.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 60
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "New Animation"
+  images {
+    image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_fountain_mid_red_anim_f0.png"
+  }
+  images {
+    image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_fountain_mid_red_anim_f1.png"
+  }
+  images {
+    image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_fountain_mid_red_anim_f2.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 60
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "New Animation"
+  images {
+    image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_fountain_mid_blue_anim_f0.png"
+  }
+  images {
+    image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_fountain_mid_blue_anim_f1.png"
+  }
+  images {
+    image: "/assets/0x72_DungeonTileset_v1.1_individual_sprites/env/wall_fountain_mid_blue_anim_f2.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 60
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+margin: 0
+extrude_borders: 1
+inner_padding: 0

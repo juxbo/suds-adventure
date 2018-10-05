@@ -1,0 +1,18 @@
+function init(self)
+	msg.post(".", "acquire_input_focus")
+end
+
+function on_input(self, action_id, action)
+	if(action_id == hash("LEFTCLICK") and action.released == true) then
+		local textBegin = gui.get_node("start")
+		if(gui.pick_node(textBegin, action.x, action.y)) then
+			msg.post("loader:/go#loader", "start_game")
+		end
+	end
+	if(action_id == hash("LEFTCLICK") and action.released == true) then
+		local textEnd = gui.get_node("end")
+		if(gui.pick_node(textEnd, action.x, action.y)) then
+			msg.post("@system:", "exit", {code = 0})
+		end
+	end
+end
