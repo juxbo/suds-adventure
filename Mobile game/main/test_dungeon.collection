@@ -1,4 +1,4 @@
-name: "dungeon"
+name: "testdungeon"
 instances {
   id: "camera"
   prototype: "/rendercam/camera.go"
@@ -8,10 +8,10 @@ instances {
     z: 0.0
   }
   rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
+    x: 0.008802021
+    y: 0.008802021
+    z: 0.008649722
+    w: 0.9998851
   }
   component_properties {
     id: "script"
@@ -38,6 +38,11 @@ instances {
     properties {
       id: "expandView"
       value: "true"
+      type: PROPERTY_TYPE_BOOLEAN
+    }
+    properties {
+      id: "fixedArea"
+      value: "false"
       type: PROPERTY_TYPE_BOOLEAN
     }
   }
@@ -72,8 +77,8 @@ embedded_instances {
 embedded_instances {
   id: "fg"
   data: "components {\n"
-  "  id: \"map_fg\"\n"
-  "  component: \"/main/map_fg.tilemap\"\n"
+  "  id: \"tube\"\n"
+  "  component: \"/main/tube.tilemap\"\n"
   "  position {\n"
   "    x: 0.0\n"
   "    y: 0.0\n"
@@ -89,7 +94,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"collisionobject\"\n"
   "  type: \"collisionobject\"\n"
-  "  data: \"collision_shape: \\\"/main/map_fg.tilemap\\\"\\n"
+  "  data: \"collision_shape: \\\"/main/tube.tilemap\\\"\\n"
   "type: COLLISION_OBJECT_TYPE_STATIC\\n"
   "mass: 0.0\\n"
   "friction: 0.1\\n"
@@ -132,9 +137,10 @@ embedded_instances {
 }
 embedded_instances {
   id: "player"
+  children: "camera"
   data: "components {\n"
   "  id: \"main\"\n"
-  "  component: \"/main/dungeon.script\"\n"
+  "  component: \"/main/test_dungeon.script\"\n"
   "  position {\n"
   "    x: 0.0\n"
   "    y: 0.0\n"
@@ -252,22 +258,7 @@ embedded_instances {
 }
 embedded_instances {
   id: "bg"
-  data: "components {\n"
-  "  id: \"map_bg\"\n"
-  "  component: \"/main/map_bg.tilemap\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
+  data: ""
   position {
     x: 0.0
     y: 0.0

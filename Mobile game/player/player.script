@@ -1,3 +1,5 @@
+local rendercam = require "rendercam.rendercam"
+
 function init(self)
 	msg.post(".", "acquire_input_focus")
 	self.runSpeed = 50
@@ -19,6 +21,7 @@ function update(self, dt)
 			self.curAnim = "run"
 		end
 	end
+	go.set_position(pos, "/camera")
 	self.speed = vmath.vector3()
 end
 
