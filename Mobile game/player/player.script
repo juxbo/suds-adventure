@@ -1,5 +1,3 @@
-local rendercam = require "rendercam.rendercam"
-
 function init(self)
 	msg.post(".", "acquire_input_focus")
 	self.runSpeed = 50
@@ -7,7 +5,6 @@ function init(self)
 	msg.post("#playersprite", "play_animation", {id=hash("idle")})
 	self.speed = vmath.vector3()
 	self.target = go.get_position()
-	rendercam.follow(go.get_id("go/#player"))
 end
 
 function update(self, dt)
@@ -28,11 +25,11 @@ end
 function on_input(self, action_id, action)
 	if action_id == hash("MOVE_RIGHT") then
 		self.speed.x = self.runSpeed
-		sprite.set_hflip("#playersprite", false)
+		--sprite.set_hflip("#playersprite", false)
 	end
 	if action_id == hash("MOVE_LEFT") then
 		self.speed.x = self.runSpeed * -1
-		sprite.set_hflip("#playersprite", true)
+		--sprite.set_hflip("#playersprite", true)
 	end
 	if action_id == hash("MOVE_UP") then
 		self.speed.y = self.runSpeed
@@ -40,4 +37,9 @@ function on_input(self, action_id, action)
 	if action_id == hash("MOVE_DOWN") then
 		self.speed.y = self.runSpeed * -1
 	end
+end
+
+function final(self)
+	msg.post(".", "release_input_focus")
+	msg.post("#camera", "release_camera_focus")
 end

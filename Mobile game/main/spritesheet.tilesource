@@ -1308,12 +1308,12 @@ convex_hulls {
 convex_hulls {
   index: 1116
   count: 5
-  collision_group: ""
+  collision_group: "walls"
 }
 convex_hulls {
   index: 1121
   count: 5
-  collision_group: ""
+  collision_group: "walls"
 }
 convex_hulls {
   index: 1126
@@ -1458,12 +1458,12 @@ convex_hulls {
 convex_hulls {
   index: 1212
   count: 5
-  collision_group: ""
+  collision_group: "walls"
 }
 convex_hulls {
   index: 1217
   count: 5
-  collision_group: ""
+  collision_group: "walls"
 }
 convex_hulls {
   index: 1222
