@@ -58,4 +58,5 @@ shared_state = 1
 
 [physics]
 debug = 0
+gravity_y = 0.0
 

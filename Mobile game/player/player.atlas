@@ -20,7 +20,7 @@ animations {
     image: "/assets/robo/boost/boost_2.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 1
+  fps: 5
   flip_horizontal: 0
   flip_vertical: 0
 }
